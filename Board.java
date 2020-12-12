@@ -648,7 +648,22 @@ public class Board {
     public void print() { // print board
 
         int s;
-
+        try  
+        {  
+            final String os = System.getProperty("os.name");  
+            if (os.contains("Windows"))  
+            {  
+                new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
+            }  
+            else  
+            {  
+                new ProcessBuilder("bash", "-c", "clear").inheritIO().start().waitFor();
+            }  
+        }  
+        catch (final Exception e)  
+        {  
+            e.printStackTrace();  
+        }  
         System.out.println();
         System.out.println("| |a|b|c|d|e|f|g|h| |");
 
