@@ -1,7 +1,7 @@
 # othello
 ------
 ## requirements
-- (openjdk 15.0.1)
+- openjdk 15.0.1
 
 ## odigies
 Se grammi entolon to programma
