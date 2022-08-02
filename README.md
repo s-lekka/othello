@@ -8,7 +8,7 @@
 ## requirements
 - openjdk 15.0.1
 
-## odigies
+## instructions
 compile and run program with following commands
 on command promt
 
@@ -23,7 +23,7 @@ Alternatively, build & run
 on any IDE.
 
 ------
-## Additional Notes
+## additional notes
 On IntelliJ IDE better appearance of board is possible using text color codes.  
 To use the above mentioned presentation a change must be made inside the code, 
 before building, of file `Board.java line:681` in function String colored(char c) 
